@@ -19,9 +19,9 @@ Make a http `POST` request with a client of your choice on `http://localhost:800
 Payload:
 ```json
 {
-  "author": "Advaned Web Application Infrastructure",
-  "title": "Matthias Noback",
+  "title": "Advaned Web Application Infrastructure",
   "description": "The missing manual for making your web applications future-proof", 
+  "author": "Matthias Noback",
   "isbn": 9789082120165,
   "links": [
     {
