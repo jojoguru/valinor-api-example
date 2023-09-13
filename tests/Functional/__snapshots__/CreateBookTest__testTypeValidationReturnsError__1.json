@@ -1,0 +1,28 @@
+{
+    "code": 400,
+    "message": "Validation Failed",
+    "errors": {
+        "children": {
+            "author": {
+                "errors": [
+                    "Cannot be empty and must be filled with a value matching type `string`."
+                ]
+            },
+            "title": {
+                "errors": [
+                    "Cannot be empty and must be filled with a value matching type `string`."
+                ]
+            },
+            "description": {
+                "errors": [
+                    "Cannot be empty and must be filled with a value matching type `string`."
+                ]
+            },
+            "isbn": {
+                "errors": [
+                    "Cannot be empty and must be filled with a value matching type `int`."
+                ]
+            }
+        }
+    }
+}

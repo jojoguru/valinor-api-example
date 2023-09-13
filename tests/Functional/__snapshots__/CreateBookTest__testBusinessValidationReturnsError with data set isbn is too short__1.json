@@ -1,0 +1,13 @@
+{
+    "code": 400,
+    "message": "Validation Failed",
+    "errors": {
+        "children": {
+            "isbn": {
+                "errors": [
+                    "This value should have exactly 13 characters."
+                ]
+            }
+        }
+    }
+}

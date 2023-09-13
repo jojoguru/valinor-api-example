@@ -1,0 +1,23 @@
+{
+    "code": 400,
+    "message": "Validation Failed",
+    "errors": {
+        "children": {
+            "author": {
+                "errors": [
+                    "This value should not be blank."
+                ]
+            },
+            "title": {
+                "errors": [
+                    "This value should not be blank."
+                ]
+            },
+            "isbn": {
+                "errors": [
+                    "This value should have exactly 13 characters."
+                ]
+            }
+        }
+    }
+}
